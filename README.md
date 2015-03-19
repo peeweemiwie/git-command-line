@@ -8,7 +8,10 @@
     git pull --rebase
     
 ### rebase - local branch from remote master
-    git pull --rebase origin master
+   git checkout [your-branch]    
+   git fetch origin  
+   git rebase origin/master 
+   git push origin[your-branch]
 
 ##### Then push to remote. 
     git push -f origin [your-branch]
