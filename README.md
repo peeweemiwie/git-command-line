@@ -9,3 +9,9 @@
     
 ### rebase - local branch from remote master
     git pull --rebase origin master
+
+##### Then push to remote. 
+    git push -f origin [your-branch]
+
+### Discard changes in local working direcotry
+    git checkout -- filename`
