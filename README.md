@@ -28,6 +28,7 @@ http://git-scm.com/docs/git-pull
 http://git-scm.com/docs/git-fetch
 
 Great comment found on stackoverflow : http://stackoverflow.com/questions/292357/what-are-the-differences-between-git-pull-and-git-fetch
+
 In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.
 
 You can do a `git fetch` at any time to update your remote-tracking branches under `refs/remotes/<remote>/`. This operation never changes any of your own local branches under `refs/heads`, and is safe to do without changing your working copy. I have even heard of people running git fetch periodically in a cron job in the background (although I wouldn't recommend doing this).
