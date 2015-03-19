@@ -17,4 +17,7 @@
     git push -f origin [your-branch]
 
 ### Discard changes in local working direcotry
-    git checkout -- filename`
+    git checkout -- filename
+
+### View difference between your files and HEAD: 
+    git diff HEAD
