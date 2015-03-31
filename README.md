@@ -35,5 +35,11 @@ You can do a `git fetch` at any time to update your remote-tracking branches und
 
 A `git pull` is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
 
+##SSH
 
+https://help.github.com/articles/about-two-factor-authentication/
+
+    git remote remove origin;  git remote add origin git@github.com:account-name/repo-name.git
+    
+    
 
