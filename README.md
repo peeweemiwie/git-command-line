@@ -47,4 +47,12 @@ https://help.github.com/articles/about-two-factor-authentication/
 
     $ git clone git@github.com:nymag/repository-name.git
     
-    
+##Rename local branch
+
+To rename other branch
+
+    git branch -m <oldname> <newname>
+
+To rename the current branch
+
+    git branch -m <newname>
