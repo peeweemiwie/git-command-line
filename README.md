@@ -56,3 +56,8 @@ To rename other branch
 To rename the current branch
 
     git branch -m <newname>
+
+
+##Ignore local change
+
+    git checkout -f
