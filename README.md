@@ -61,3 +61,15 @@ To rename the current branch
 ##Ignore local change
 
     git checkout -f
+
+##Roll back to commit id
+
+    git reset --hard c14809fa
+    
+It will make your local code and local history be just like it was at that commit. But then if you wanted to push this to someone else who has the new history, it would fail.
+
+if you do
+
+    git reset --soft c14809fa
+It will make your local files changed to be like they were then, but leave your history etc. the same.
+http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-on-commit-id-with-git
