@@ -73,3 +73,8 @@ if you do
     git reset --soft c14809fa
 It will make your local files changed to be like they were then, but leave your history etc. the same.
 http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-on-commit-id-with-git
+
+
+##Amending the commit message
+
+    git commit --amend -m "New commit message"
