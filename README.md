@@ -82,3 +82,9 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
 ## Change file name
     
     mv oldfilename newfilename
+    
+## Remove directory
+
+    git rm -r one-of-the-directories
+    git commit -m "Remove duplicated directory"
+    git push origin master
