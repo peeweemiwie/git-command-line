@@ -78,3 +78,7 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
 ##Amending the commit message
 
     git commit --amend -m "New commit message"
+    
+## Change file name
+    
+    mv oldfilename newfilename
