@@ -88,3 +88,15 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
     git rm -r one-of-the-directories
     git commit -m "Remove duplicated directory"
     git push origin master
+
+## Git stash
+
+    $ git status
+    $ git stash list
+    stash@{0}: WIP on master: 049d078 added the index file
+    stash@{1}: WIP on master: c264051 Revert "added file_size"
+    stash@{2}: WIP on master: 21d80a5 added number to log
+    $ git stash apply
+    or
+    $ git stash apply stash@{2}
+    
