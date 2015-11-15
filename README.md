@@ -100,3 +100,11 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
     or
     $ git stash apply stash@{2}
     
+    
+    ls -ahl
+    
+    history
+    
+    command + r
+    
+    
