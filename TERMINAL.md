@@ -18,7 +18,12 @@
     $ touch new-file
 
 
-## rename a file
+## Rename a file
 
     mv oldfilename newfilename
     
+## Check what is inside the directory
+
+    ls 
+    ls -la
+    ls -hla
