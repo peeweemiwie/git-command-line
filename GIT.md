@@ -79,10 +79,6 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
 
     git commit --amend -m "New commit message"
     
-## Change file name
-    
-    mv oldfilename newfilename
-    
 ## Remove directory
 
     git rm -r one-of-the-directories
@@ -106,11 +102,4 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
     history
     
     command + r
-    
 
-## terminal command
-
-    $ mkdir directory-name -- create a new directory 
-    $ rmdir directory-name -- delete a directory
-    $ rm -rf directory-name -- delete a directory with file(s)
-    $ touch new-file -- create a new file
