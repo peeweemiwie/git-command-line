@@ -107,4 +107,9 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
     
     command + r
     
-    
+
+## terminal command
+
+    $ mkdir sass - create a new directory 
+    $ rmdir sass - delete a directory
+    $ touch new-file - create a new file
