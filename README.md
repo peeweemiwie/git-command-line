@@ -2,9 +2,9 @@
 
 I reorganized files.
 
-GIT -> https://github.com/peeweemiwie/git-command-line/blob/master/GIT.md
+git related -> https://github.com/peeweemiwie/git-command-line/blob/master/GIT.md
 
-NODE -> https://github.com/peeweemiwie/git-command-line/blob/master/NODE.md
+node, npm   -> https://github.com/peeweemiwie/git-command-line/blob/master/NODE.md
 
-TERMINAL ->https://github.com/peeweemiwie/git-command-line/blob/master/TERMINAL.md
+terminal ->https://github.com/peeweemiwie/git-command-line/blob/master/TERMINAL.md
 
