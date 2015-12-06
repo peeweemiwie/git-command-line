@@ -36,11 +36,12 @@ this).
 
 A `git pull` is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
 
-##SSH
+##SSH two factor authentication
 
 https://help.github.com/articles/about-two-factor-authentication/
 
-    git remote remove origin;  git remote add origin git@github.com:account-name/repo-name.git
+    git remote remove origin;  
+    git remote add origin git@github.com:account-name/repo-name.git
     
     
 ##Cloning an Existing Repository
