@@ -104,3 +104,9 @@ http://stackoverflow.com/questions/3639115/reverting-to-a-specific-commit-based-
     
     command + r
 
+## Add all files to a commit except a single file?
+
+http://stackoverflow.com/questions/4475457/add-all-files-to-a-commit-except-a-single-file
+
+    git add -u
+    git reset -- main/dontcheckmein.txt
