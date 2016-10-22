@@ -27,3 +27,12 @@
     ls 
     ls -la
     ls -hla
+
+
+## Show hidden files 
+
+http://www.macworld.co.uk/how-to/mac-software/how-show-hidden-files-in-mac-os-x-finder-funter-3520878/
+
+    defaults write com.apple.finder AppleShowAllFiles YES
+
+    killall Finder
