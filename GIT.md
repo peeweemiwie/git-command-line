@@ -1,4 +1,8 @@
 # git-command-line
+
+### search branch name using `grep`
+`git branch --all | grep <id>`
+
 ### reset hard from remote branch
     git checkout [your-branch]
     git fetch origin [your-branch]
