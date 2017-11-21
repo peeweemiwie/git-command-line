@@ -1,5 +1,13 @@
 # git-command-line
 
+
+### This will tell git you want to start ignoring the changes to the file
+`git update-index --assume-unchanged path/to/file`
+
+### When you want to start keeping track again
+`git update-index --no-assume-unchanged path/to/file`
+
+
 ### search branch name using `grep`
 `git branch --all | grep <id>`
 
